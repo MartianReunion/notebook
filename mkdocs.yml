@@ -1,8 +1,21 @@
 site_name: 火星笔记本
 site_url: https://notebook.bluesunset.top/
+
+nav:
+  - 首页: index.md
+  # - 语文:
+  # - 数学:
+  # - 英语:
+  # - 物理:
+  - 化学:
+      - 首页: chem/index.md
+      - 理论:
+          - 物质的分类: chem/theory/物质的分类.md
+# - 生物:
+
 theme:
   name: material
-  language: 'zh'
+  language: "zh"
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -29,6 +42,25 @@ theme:
     - navigation.tracking
     - navigation.tabs.sticky
   font:
-    text: 'Noto Sans CJK SC'
-    code: 'Fira Mono'
+    text: "Noto Sans CJK SC"
+    code: "Fira Mono"
   custom_dir: overrides
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
+plugins:
+  - search
+  - mermaid2:
+      javascript: js/mermaid.min.js
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

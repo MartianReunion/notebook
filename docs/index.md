@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# 火星笔记本
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+就是我整理笔记的地方。
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+克隆仓库请留意插件，它们已经在`ci.yml`中列出（只是要找一找）。
