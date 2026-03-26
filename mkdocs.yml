@@ -10,7 +10,13 @@ nav:
   - 化学:
       - 首页: chem/index.md
       - 理论:
-          - 物质的分类: chem/theory/物质的分类.md
+        - 物质的分类: chem/theory/物质的分类.md
+      - 物质:
+        - 氮:
+          - 概述: chem/substance/N/index.md
+          - 单质:  chem/substance/N/N2.md
+          - 氧化物与酸:  chem/substance/N/NO.md
+          - 氨气: chem/substance/N/NH3.md
 # - 生物:
 
 theme:
