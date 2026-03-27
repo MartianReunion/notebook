@@ -17,6 +17,8 @@ nav:
           - 单质:  chem/substance/N/N2.md
           - 氧化物与酸:  chem/substance/N/NO.md
           - 氨气: chem/substance/N/NH3.md
+      - 实验:
+        - 氨气的喷泉实验: chem/experiment/NH3.md
 # - 生物:
 
 theme:
